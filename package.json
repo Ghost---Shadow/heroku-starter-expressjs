@@ -1,5 +1,5 @@
 {
-  "name": "heroku-starter-nodejs",
+  "name": "heroku-starter-expressjs",
   "version": "0.1.0",
   "description": "A dockerized starter project with expressjs backend",
   "main": "src/index.js",
