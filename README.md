@@ -2,6 +2,9 @@
 
 A dockerized starter project which deploys an expressjs app to heroku.
 
+Deployed here on heroku
+<https://heroku-starter-expressjs.herokuapp.com>
+
 ## Installation
 
 Make sure [Docker](https://www.docker.com/) and [nodejs](https://nodejs.org/en/) are installed
