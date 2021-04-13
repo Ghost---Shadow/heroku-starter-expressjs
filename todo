@@ -9,3 +9,4 @@ soft delete users
 hard delete posts
 unique constraint for signup
 tests
+lint and tests in CI
