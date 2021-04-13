@@ -2,6 +2,10 @@
 
 A dockerized starter project which deploys an expressjs app to heroku.
 
+## Installation
+
+Run `npm i` to install.
+
 ## Environment variables
 
 | Name        | Description                 |
@@ -26,3 +30,9 @@ Run migration
 ```bash
 npm run db:migrate
 ```
+
+## Running
+
+Run `npm run start:dev` to start in development mode.
+
+Import the `./postman/*` into [Postman](https://www.postman.com/) to see the API docs
