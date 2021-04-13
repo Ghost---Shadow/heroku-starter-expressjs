@@ -1,6 +1,14 @@
 const { Sequelize } = require('sequelize');
 
-const sequelize = new Sequelize('postgres://root:password@0.0.0.0:5432/postgres');
+// https://stackoverflow.com/a/27688357/1217998
+const dialectOptions = process.env.NODE_ENV !== 'production' ? {} : {
+  ssl: {
+    require: true,
+    rejectUnauthorized: false,
+  },
+};
+
+const sequelize = new Sequelize('postgres://root:password@0.0.0.0:5432/postgres', { dialectOptions });
 
 const testConnection = async () => {
   try {

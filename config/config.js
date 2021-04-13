@@ -12,5 +12,12 @@ module.exports = {
     database: process.env.DB_NAME,
     host: process.env.DB_HOST,
     dialect: 'postgres',
+    // https://stackoverflow.com/a/27688357/1217998
+    dialectOptions: {
+      ssl: {
+        require: true,
+        rejectUnauthorized: false, // Heroku uses self signed certs
+      },
+    },
   },
 };
