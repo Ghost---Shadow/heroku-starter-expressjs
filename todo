@@ -1,0 +1,11 @@
+API schema validation
+join sample
+JWT sample
+auth middleware and extract user id from auth token
+move DB sessions to middleware
+total pages in posts
+edit posts
+soft delete users
+hard delete posts
+unique constraint for signup
+tests
