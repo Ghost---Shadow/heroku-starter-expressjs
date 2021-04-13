@@ -1,5 +1,6 @@
-*
-!src
-!LICENSE
-!package.json
-!package-lock.json
+node_modules
+.github
+postman
+docker-compose.yml
+README.md
+todo

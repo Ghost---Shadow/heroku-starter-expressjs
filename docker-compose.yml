@@ -1,5 +1,15 @@
 version: "3.9"
 services:
+  # heroku-starter-expressjs:
+  #   build: .
+  #   environment:
+  #     - NODE_ENV=production
+  #     - DB_USERNAME=root
+  #     - DB_PASSWORD=password
+  #     - DB_NAME=postgres
+  #     - DB_HOST=postgres
+  #   ports:
+  #     - 5000:5000
   postgres:
     image: postgres
     healthcheck:
